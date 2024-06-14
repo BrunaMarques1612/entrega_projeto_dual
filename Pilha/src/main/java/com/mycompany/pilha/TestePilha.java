@@ -15,10 +15,20 @@ public class TestePilha {
         Pilha<Integer> pilhaInteiros = new Pilha<>();
 
         // Empilhando alguns números inteiros
+        pilhaInteiros.push(1);
         pilhaInteiros.push(10);
+        pilhaInteiros.push(15);
         pilhaInteiros.push(20);
+        pilhaInteiros.push(25);
         pilhaInteiros.push(30);
-
+        pilhaInteiros.push(35);
+        pilhaInteiros.push(40);
+        pilhaInteiros.push(45);
+        pilhaInteiros.push(50);
+        pilhaInteiros.push(55);
+        pilhaInteiros.push(60);
+        pilhaInteiros.push(100);
+        
         // Desempilhando e exibindo os elementos
         System.out.println("Elementos desempilhados da pilha de inteiros:");
         while (!pilhaInteiros.isEmpty()) {
@@ -29,9 +39,12 @@ public class TestePilha {
         Pilha<String> pilhaStrings = new Pilha<>();
 
         // Empilhando algumas strings
-        pilhaStrings.push("Java");
-        pilhaStrings.push("é");
-        pilhaStrings.push("legal");
+        pilhaStrings.push("A");
+        pilhaStrings.push("inteligência");
+        pilhaStrings.push("artificial");
+        pilhaStrings.push("Dominará");
+        pilhaStrings.push("o");
+        pilhaStrings.push("mundo");
 
         // Desempilhando e exibindo os elementos
         System.out.println("\nElementos desempilhados da pilha de strings:");
